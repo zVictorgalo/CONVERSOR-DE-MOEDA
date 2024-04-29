@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Título da página -->
+    <h1>CAMBIO EXPRESS</h1>
+
+    <!-- Container para a conversão de moedas -->
+    <div class="converter">
+        <label for="from">De:</label>
+        <select id="from">
+            <option value="USD">Dólar Americano (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="JPY">Iene Japonês (JPY)</option>
+            <option value="GBP">Libra Esterlina (GBP)</option>
+            <option value="AUD">Dólar Australiano (AUD)</option>
+            <option value="CAD">Dólar Canadense (CAD)</option>
+            <option value="CHF">Franco Suíço (CHF)</option>
+            <option value="CNY">Yuan Chinês (CNY)</option>
+            <option value="SEK">Coroa Sueca (SEK)</option>
+            <option value="NZD">Dólar Neozelandês (NZD)</option>
+            <option value="BRL">Real Brasileiro (BRL)</option>
+        </select>
+        <input type="number" id="amount" placeholder="Valor para converter">
+        <label for="to">Para:</label>
+        <select id="to">
+            <option value="USD">Dólar Americano (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="JPY">Iene Japonês (JPY)</option>
+            <option value="GBP">Libra Esterlina (GBP)</option>
+            <option value="AUD">Dólar Australiano (AUD)</option>
+            <option value="CAD">Dólar Canadense (CAD)</option>
+            <option value="CHF">Franco Suíço (CHF)</option>
+            <option value="CNY">Yuan Chinês (CNY)</option>
+            <option value="SEK">Coroa Sueca (SEK)</option>
+            <option value="NZD">Dólar Neozelandês (NZD)</option>
+            <option value="BRL">Real Brasileiro (BRL)</option>
+        </select>
+        <button id="convertBtn">Converter</button>
+    </div>
+
+    <!-- Container para exibir a data e a hora -->
+    <div id="info">
+        <div id="date"></div>
+        <div id="time"></div>
+        <div id="goldPrice"></div>
+    </div>
+
+    <!-- Container para exibir o valor convertido -->
+    <div id="convertedValue"></div>
+
+    <!-- Arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

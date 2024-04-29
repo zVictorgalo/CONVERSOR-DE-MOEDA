@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.converter {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, select, input, button {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#convertedValue {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  display: none;
+}
+
+#info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#date, #time, #goldPrice {
+  color: blue;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
